@@ -185,6 +185,7 @@ h2 {
 .car img {
   width: 100%;
   animation: car 10s linear infinite, vehicle 11s linear infinite;
+  -webkit-animation: car 10s linear infinite, vehicle 11s linear infinite;
 }
 
 @keyframes car {
