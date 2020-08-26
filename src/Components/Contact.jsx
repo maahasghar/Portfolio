@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import "font-awesome/css/font-awesome.min.css";
 
@@ -12,6 +12,7 @@ const Contact = () => {
           <div className="col-10 mx-auto text-center">
             <a
               target="_blank"
+              rel="noopener noreferrer"
               className="icon-style"
               href="mailto:maahasghar@hotmail.com"
             >
@@ -19,6 +20,7 @@ const Contact = () => {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               className="icon-style"
               href="https://www.linkedin.com/in/maah-asghar-697188198/"
             >
@@ -26,6 +28,7 @@ const Contact = () => {
             </a>
             <a
               target="_blank"
+              rel="noopener noreferrer"
               className="icon-style"
               href="https://github.com/maahasghar"
             >

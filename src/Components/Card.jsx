@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 const Card = (props) => {
   return (
@@ -7,7 +7,12 @@ const Card = (props) => {
       <p className=" box-text">{props.text}</p>
       <br />
       <br />
-      <a href={props.url} target="_blank" className=" box-button ">
+      <a
+        href={props.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className=" box-button "
+      >
         View Code
       </a>
     </div>

@@ -22,6 +22,7 @@ const Home = () => {
                     activeClassName="active"
                     className="nav-link"
                     target="_blank"
+                    rel="noopener noreferrer"
                     to={process.env.PUBLIC_URL + "/resume.pdf"}
                     className="default_btn"
                   >
@@ -36,12 +37,12 @@ const Home = () => {
       <div className="city"></div>
 
       <div className="car">
-        <img src={car} className="img" />
+        <img src={car} className="img" alt="car body" />
       </div>
 
       <div className="wheel">
-        <img src={wheel} className="img back-wheel" />
-        <img src={wheel} className="img front-wheel" />
+        <img src={wheel} className="img back-wheel" alt="back wheel" />
+        <img src={wheel} className="img front-wheel" alt="front wheel" />
       </div>
     </section>
   );
