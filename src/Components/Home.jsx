@@ -20,11 +20,10 @@ const Home = () => {
 
                   <NavLink
                     activeClassName="active"
-                    className="nav-link"
+                    className="nav-link default_btn"
                     target="_blank"
                     rel="noopener noreferrer"
                     to={process.env.PUBLIC_URL + "/resume.pdf"}
-                    className="default_btn"
                   >
                     View Resume
                   </NavLink>
