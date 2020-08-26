@@ -212,6 +212,39 @@ h2 {
   }
 }
 
+@-moz-keyframes car {
+  100% {
+    -moz-transform: translateY(-0.1rem);
+  }
+  50% {
+    -moz-transform: translateY(0.1rem);
+  }
+  0% {
+    -moz-transform: translateY(-0.1rem);
+  }
+}
+@-ms-keyframes car {
+  100% {
+    -ms-transform: translateY(-0.1rem);
+  }
+  50% {
+    -ms-transform: translateY(0.1rem);
+  }
+  0% {
+    -ms-transform: translateY(-0.1rem);
+  }
+}
+@-o-keyframes car {
+  100% {
+    -o-transform: translateY(-0.1rem);
+  }
+  50% {
+    -o-transform: translateY(0.1rem);
+  }
+  0% {
+    -o-transform: translateY(-0.1rem);
+  }
+}
 @keyframes vehicle {
   100% {
     transform: translateX(90vw);
@@ -224,6 +257,21 @@ h2 {
   }
 }
 
+@-moz-keyframes vehicle {
+  100% {
+    -moz-transform: translateX(90vw);
+  }
+}
+@-ms-keyframes vehicle {
+  100% {
+    -ms-transform: translateX(90vw);
+  }
+}
+@-o-keyframes vehicle {
+  100% {
+    -o-transform: translateX(90vw);
+  }
+}
 .wheel {
   left: 0%;
   bottom: 2.5rem;
