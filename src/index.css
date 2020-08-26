@@ -191,6 +191,7 @@ h2 {
   -o-animation: car 10s linear infinite, vehicle 11s linear infinite;
 }
 
+/* -----------------------------------------------------------Car Animation X Cross Browser------------------------------------------ */
 @keyframes car {
   100% {
     transform: translateY(-0.1rem);
@@ -248,6 +249,8 @@ h2 {
     -o-transform: translateY(-0.1rem);
   }
 }
+
+/* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
 @keyframes vehicle {
   100% {
     transform: translateX(90vw);
@@ -275,6 +278,8 @@ h2 {
     -o-transform: translateX(90vw);
   }
 }
+
+/* -----------------------------------------------------------Wheel Animation X Cross Browser------------------------------------------ */
 .wheel {
   left: 0%;
   bottom: 2.5rem;
@@ -287,6 +292,10 @@ h2 {
   width: 2rem;
   height: 2rem;
   animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -ms-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -o-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
 }
 
 .back-wheel {
@@ -311,6 +320,21 @@ h2 {
   }
 }
 
+@-moz-keyframes wheel {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes wheel {
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes wheel {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
 /*-----------------------------------------------ABOUT---------------------------------------------------*/
 
 #about {
