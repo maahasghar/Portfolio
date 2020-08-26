@@ -313,10 +313,10 @@ h2 {
 
 /* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
 @-webkit-keyframes vehicle {
-  100% {
-    -webkit-transform: translateX(90vw);
-  }
   0% {
+    -webkit-transform: translateX(0vw);
+  }
+  100% {
     -webkit-transform: translateX(90vw);
   }
 }
