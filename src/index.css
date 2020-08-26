@@ -60,7 +60,8 @@ h2 {
   color: #941e40 !important;
   position: absolute;
   left: 0;
-  padding: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .navbar a {
@@ -200,13 +201,25 @@ h2 {
 
 @-webkit-keyframes car {
   100% {
-    transform: translateY(-0.1rem);
+    -webkit-transform: translateY(-0.1rem);
   }
   50% {
-    transform: translateY(0.1rem);
+    -webkit-transform: translateY(0.1rem);
   }
   0% {
-    transform: translateY(-0.1rem);
+    -webkit-transform: translateY(-0.1rem);
+  }
+}
+
+@keyframes vehicle {
+  100% {
+    transform: translateX(90vw);
+  }
+}
+
+@-webkit-keyframes vehicle {
+  100% {
+    -webkit-transform: translateX(90vw);
   }
 }
 
@@ -242,21 +255,10 @@ h2 {
 
 @-webkit-keyframes wheel {
   100% {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
   }
 }
 
-@keyframes vehicle {
-  100% {
-    transform: translateX(90vw);
-  }
-}
-
-@-webkit-keyframes vehicle {
-  100% {
-    transform: translateX(90vw);
-  }
-}
 /*-----------------------------------------------ABOUT---------------------------------------------------*/
 
 #about {
