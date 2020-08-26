@@ -104,7 +104,7 @@ h2 {
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color: #feebca;
+  background-color: #fff5d7;
 }
 
 #home h1 {
@@ -136,6 +136,7 @@ h2 {
   background-position: right;
   overflow-x: hidden;
   animation: sky 400s linear infinite;
+  background-color: #fff5d7;
 }
 
 @keyframes sky {
@@ -184,26 +185,14 @@ h2 {
 
 .car img {
   width: 100%;
-  animation: car 10s linear infinite, vehicle 11s linear infinite;
   -webkit-animation: car 10s linear infinite, vehicle 11s linear infinite;
   -moz-animation: car 10s linear infinite, vehicle 11s linear infinite;
   -ms-animation: car 10s linear infinite, vehicle 11s linear infinite;
   -o-animation: car 10s linear infinite, vehicle 11s linear infinite;
+  animation: car 10s linear infinite, vehicle 11s linear infinite;
 }
 
 /* -----------------------------------------------------------Car Animation X Cross Browser------------------------------------------ */
-@keyframes car {
-  100% {
-    transform: translateY(-0.1rem);
-  }
-  50% {
-    transform: translateY(0.1rem);
-  }
-  0% {
-    transform: translateY(-0.1rem);
-  }
-}
-
 @-webkit-keyframes car {
   100% {
     -webkit-transform: translateY(-0.1rem);
@@ -250,13 +239,76 @@ h2 {
   }
 }
 
-/* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
-@keyframes vehicle {
+@keyframes car {
   100% {
-    transform: translateX(90vw);
+    transform: translateY(-0.1rem);
+  }
+  50% {
+    transform: translateY(0.1rem);
+  }
+  0% {
+    transform: translateY(-0.1rem);
   }
 }
 
+/* -----------------------------------------------------------Wheel Animation X Cross Browser------------------------------------------ */
+.wheel {
+  left: 0%;
+  bottom: 2.5rem;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+}
+
+.wheel img {
+  width: 2rem;
+  height: 2rem;
+
+  -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -ms-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -o-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+}
+
+.back-wheel {
+  left: -3.9rem;
+  position: absolute;
+}
+
+.front-wheel {
+  left: 2.2rem;
+  position: absolute;
+}
+
+@-webkit-keyframes wheel {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes wheel {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes wheel {
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-o-keyframes wheel {
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@keyframes wheel {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
 @-webkit-keyframes vehicle {
   100% {
     -webkit-transform: translateX(90vw);
@@ -279,60 +331,9 @@ h2 {
   }
 }
 
-/* -----------------------------------------------------------Wheel Animation X Cross Browser------------------------------------------ */
-.wheel {
-  left: 0%;
-  bottom: 2.5rem;
-  transform: translateX(-50%);
-  position: absolute;
-  z-index: 2;
-}
-
-.wheel img {
-  width: 2rem;
-  height: 2rem;
-  animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  -ms-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  -o-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-}
-
-.back-wheel {
-  left: -3.9rem;
-  position: absolute;
-}
-
-.front-wheel {
-  left: 2.2rem;
-  position: absolute;
-}
-
-@keyframes wheel {
+@keyframes vehicle {
   100% {
-    transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes wheel {
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@-moz-keyframes wheel {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-@-ms-keyframes wheel {
-  100% {
-    -ms-transform: rotate(360deg);
-  }
-}
-@-o-keyframes wheel {
-  100% {
-    -o-transform: rotate(360deg);
+    transform: translateX(90vw);
   }
 }
 /*-----------------------------------------------ABOUT---------------------------------------------------*/
