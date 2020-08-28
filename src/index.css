@@ -264,17 +264,17 @@ h2 {
   width: 2rem;
   height: 2rem;
 
-  -webkit-animation-name: wheel, vehicle;
-  -webkit-animation-duration: 1s, 11s;
-  -webkit-animation-iteration-count: infinite, infinite;
-  -webkit-animation-timing-function: linear, linear;
-  /* -webkit-animation-fill-mode: forwards; */
-
-  /* -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite; */
+  -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
   -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
   -ms-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
   -o-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+
+  animation-name: wheel, vehicle;
+  animation-duration: 1s, 11s;
+  animation-iteration-count: infinite, infinite;
+  animation-timing-function: linear, linear;
+
+  /* animation: wheel 1s linear infinite, vehicle 11s linear infinite; */
 }
 
 .back-wheel {
