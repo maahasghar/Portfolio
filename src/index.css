@@ -277,47 +277,52 @@ h2 {
 
 @-webkit-keyframes wheel {
   0% {
-    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0%);
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(50%);
   }
 }
 
 @keyframes wheel {
+  0% {
+    -webkit-transform: rotate(0%);
+  }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(50%);
   }
 }
 /* -----------------------------------------Wheel 2--------------------------------------------------- */
 @-webkit-keyframes wheel2 {
   0% {
-    -webkit-transform: rotate(0deg);
+    -webkit-transform: rotate(0%);
   }
   100% {
-    -webkit-transform: rotate(360deg);
+    -webkit-transform: rotate(50%);
   }
 }
 
 @keyframes wheel2 {
+  0% {
+    -webkit-transform: rotate(0%);
+  }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(50%);
   }
 }
-
 /* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
 @-webkit-keyframes vehicle {
   0% {
     -webkit-transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(90vw);
+    -webkit-transform: translateX(90%);
   }
 }
 
 @keyframes vehicle {
   100% {
-    transform: translateX(90vw);
+    transform: translateX(90%);
   }
 }
 /*-----------------------------------------------ABOUT---------------------------------------------------*/
