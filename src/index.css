@@ -186,9 +186,6 @@ h2 {
 .car img {
   width: 100%;
   -webkit-animation: car 10s linear infinite, vehicle 11s linear infinite;
-  -moz-animation: car 10s linear infinite, vehicle 11s linear infinite;
-  -ms-animation: car 10s linear infinite, vehicle 11s linear infinite;
-  -o-animation: car 10s linear infinite, vehicle 11s linear infinite;
   animation: car 10s linear infinite, vehicle 11s linear infinite;
 }
 
@@ -202,40 +199,6 @@ h2 {
   }
   0% {
     -webkit-transform: translateY(-0.1rem);
-  }
-}
-
-@-moz-keyframes car {
-  100% {
-    -moz-transform: translateY(-0.1rem);
-  }
-  50% {
-    -moz-transform: translateY(0.1rem);
-  }
-  0% {
-    -moz-transform: translateY(-0.1rem);
-  }
-}
-@-ms-keyframes car {
-  100% {
-    -ms-transform: translateY(-0.1rem);
-  }
-  50% {
-    -ms-transform: translateY(0.1rem);
-  }
-  0% {
-    -ms-transform: translateY(-0.1rem);
-  }
-}
-@-o-keyframes car {
-  100% {
-    -o-transform: translateY(-0.1rem);
-  }
-  50% {
-    -o-transform: translateY(0.1rem);
-  }
-  0% {
-    -o-transform: translateY(-0.1rem);
   }
 }
 
@@ -264,30 +227,16 @@ h2 {
   width: 2rem;
   height: 2rem;
 
-  -webkit-animation-name: wheel, vehicle;
+  /* -webkit-animation-name: wheel, vehicle;
   -webkit-animation-duration: 1s, 11s;
   -webkit-animation-iteration-count: infinite, infinite;
   -webkit-animation-timing-function: linear, linear;
 
-  -moz-animation-name: wheel, vehicle;
-  -moz-animation-duration: 1s, 11s;
-  -moz-animation-iteration-count: infinite, infinite;
-  -moz-animation-timing-function: linear, linear;
-
-  -ms-animation-name: wheel, vehicle;
-  -ms-animation-duration: 1s, 11s;
-  -ms-animation-iteration-count: infinite, infinite;
-  -ms-animation-timing-function: linear, linear;
-
-  -o-animation-name: wheel, vehicle;
-  -o-animation-duration: 1s, 11s;
-  -o-animation-iteration-count: infinite, infinite;
-  -o-animation-timing-function: linear, linear;
 
   animation-name: wheel, vehicle;
   animation-duration: 1s, 11s;
   animation-iteration-count: infinite, infinite;
-  animation-timing-function: linear, linear;
+  animation-timing-function: linear, linear; */
 
   /* -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite; */
   /* -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
@@ -305,21 +254,6 @@ h2 {
   -webkit-animation-iteration-count: infinite, infinite;
   -webkit-animation-timing-function: linear, linear;
 
-  -moz-animation-name: wheel, vehicle;
-  -moz-animation-duration: 1s, 11s;
-  -moz-animation-iteration-count: infinite, infinite;
-  -moz-animation-timing-function: linear, linear;
-
-  -ms-animation-name: wheel, vehicle;
-  -ms-animation-duration: 1s, 11s;
-  -ms-animation-iteration-count: infinite, infinite;
-  -ms-animation-timing-function: linear, linear;
-
-  -o-animation-name: wheel, vehicle;
-  -o-animation-duration: 1s, 11s;
-  -o-animation-iteration-count: infinite, infinite;
-  -o-animation-timing-function: linear, linear;
-
   animation-name: wheel, vehicle;
   animation-duration: 1s, 11s;
   animation-iteration-count: infinite, infinite;
@@ -334,21 +268,6 @@ h2 {
   -webkit-animation-duration: 1s, 11s;
   -webkit-animation-iteration-count: infinite, infinite;
   -webkit-animation-timing-function: linear, linear;
-
-  -moz-animation-name: wheel2, vehicle;
-  -moz-animation-duration: 1s, 11s;
-  -moz-animation-iteration-count: infinite, infinite;
-  -moz-animation-timing-function: linear, linear;
-
-  -ms-animation-name: wheel2, vehicle;
-  -ms-animation-duration: 1s, 11s;
-  -ms-animation-iteration-count: infinite, infinite;
-  -ms-animation-timing-function: linear, linear;
-
-  -o-animation-name: wheel2, vehicle;
-  -o-animation-duration: 1s, 11s;
-  -o-animation-iteration-count: infinite, infinite;
-  -o-animation-timing-function: linear, linear;
 
   animation-name: wheel2, vehicle;
   animation-duration: 1s, 11s;
@@ -365,21 +284,6 @@ h2 {
   }
 }
 
-@-moz-keyframes wheel {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-@-ms-keyframes wheel {
-  100% {
-    -ms-transform: rotate(360deg);
-  }
-}
-@-o-keyframes wheel {
-  100% {
-    -o-transform: rotate(360deg);
-  }
-}
 @keyframes wheel {
   100% {
     transform: rotate(360deg);
@@ -395,21 +299,6 @@ h2 {
   }
 }
 
-@-moz-keyframes wheel2 {
-  100% {
-    -moz-transform: rotate(360deg);
-  }
-}
-@-ms-keyframes wheel2 {
-  100% {
-    -ms-transform: rotate(360deg);
-  }
-}
-@-o-keyframes wheel2 {
-  100% {
-    -o-transform: rotate(360deg);
-  }
-}
 @keyframes wheel2 {
   100% {
     transform: rotate(360deg);
@@ -423,22 +312,6 @@ h2 {
   }
   100% {
     -webkit-transform: translateX(90vw);
-  }
-}
-
-@-moz-keyframes vehicle {
-  100% {
-    -moz-transform: translateX(90vw);
-  }
-}
-@-ms-keyframes vehicle {
-  100% {
-    -ms-transform: translateX(90vw);
-  }
-}
-@-o-keyframes vehicle {
-  100% {
-    -o-transform: translateX(90vw);
   }
 }
 
