@@ -264,10 +264,30 @@ h2 {
   width: 2rem;
   height: 2rem;
 
-  -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -webkit-animation-name: wheel, vehicle;
+  -webkit-animation-duration: 1s, 11s;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-timing-function: linear, linear;
+
+  -moz-animation-name: wheel, vehicle;
+  -moz-animation-duration: 1s, 11s;
+  -moz-animation-iteration-count: infinite, infinite;
+  -moz-animation-timing-function: linear, linear;
+
+  -ms-animation-name: wheel, vehicle;
+  -ms-animation-duration: 1s, 11s;
+  -ms-animation-iteration-count: infinite, infinite;
+  -ms-animation-timing-function: linear, linear;
+
+  -o-animation-name: wheel, vehicle;
+  -o-animation-duration: 1s, 11s;
+  -o-animation-iteration-count: infinite, infinite;
+  -o-animation-timing-function: linear, linear;
+
+  /* -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite; */
+  /* -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
   -ms-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
-  -o-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
+  -o-animation: wheel 1s linear infinite, vehicle 11s linear infinite; */
 
   animation-name: wheel, vehicle;
   animation-duration: 1s, 11s;
