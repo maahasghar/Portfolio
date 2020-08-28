@@ -174,6 +174,7 @@ h2 {
   }
 }
 
+/* car body */
 .car {
   width: 12rem;
   left: 0%;
@@ -185,8 +186,17 @@ h2 {
 
 .car img {
   width: 100%;
-  -webkit-animation: car 10s linear infinite, vehicle 11s linear infinite;
-  animation: car 10s linear infinite, vehicle 11s linear infinite;
+  -webkit-animation-name: car, vehicle;
+  -webkit-animation-duration: 10s, 11s;
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-timing-function: linear, linear;
+
+  animation-name: car, vehicle;
+  animation-duration: 10s, 11s;
+  animation-iteration-count: infinite, infinite;
+  animation-timing-function: linear, linear;
+  /* -webkit-animation: car 10s linear infinite, vehicle 11s linear infinite; */
+  /* animation: car 10s linear infinite, vehicle 11s linear infinite; */
 }
 
 /* -----------------------------------------------------------Car Animation X Cross Browser------------------------------------------ */
@@ -218,7 +228,7 @@ h2 {
 .wheel {
   left: 0%;
   bottom: 2.5rem;
-  transform: translateX(-50%);
+  /* transform: translateX(-50%); */
   position: absolute;
   z-index: 2;
 }
@@ -277,52 +287,47 @@ h2 {
 
 @-webkit-keyframes wheel {
   0% {
-    -webkit-transform: rotate(0%);
+    -webkit-transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(50%);
+    -webkit-transform: rotate(360deg);
   }
 }
 
 @keyframes wheel {
-  0% {
-    -webkit-transform: rotate(0%);
-  }
   100% {
-    transform: rotate(50%);
+    transform: rotate(360deg);
   }
 }
 /* -----------------------------------------Wheel 2--------------------------------------------------- */
 @-webkit-keyframes wheel2 {
   0% {
-    -webkit-transform: rotate(0%);
+    -webkit-transform: rotate(0deg);
   }
   100% {
-    -webkit-transform: rotate(50%);
+    -webkit-transform: rotate(360deg);
   }
 }
 
 @keyframes wheel2 {
-  0% {
-    -webkit-transform: rotate(0%);
-  }
   100% {
-    transform: rotate(50%);
+    transform: rotate(360deg);
   }
 }
+
 /* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
 @-webkit-keyframes vehicle {
   0% {
     -webkit-transform: translateX(0);
   }
   100% {
-    -webkit-transform: translateX(90%);
+    -webkit-transform: translateX(90vw);
   }
 }
 
 @keyframes vehicle {
   100% {
-    transform: translateX(90%);
+    transform: translateX(90vw);
   }
 }
 /*-----------------------------------------------ABOUT---------------------------------------------------*/

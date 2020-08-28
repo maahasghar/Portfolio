@@ -36,7 +36,7 @@ const Home = () => {
       <div className="city"></div>
 
       <span className="car">
-        <img src={car} className="img" alt="car body" />
+        <img src={car} alt="car body" />
       </span>
 
       <span className="wheel">
