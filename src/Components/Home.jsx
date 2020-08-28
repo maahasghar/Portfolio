@@ -10,7 +10,7 @@ const Home = () => {
           <div className=" col-10 mx-auto">
             <div className="row">
               <div className="home pt-lg-0 col-lg-12  order-lg-1 d-flex justify-content-center flex-column">
-                <span className="home-brand text-center">Not Working</span>
+                <span className="home-brand text-center">Maah Asghar</span>
                 <h1 className="text-center">Software Engineer & Illustrator</h1>
 
                 <div className="mt-3 pt-4 d-flex justify-content-center order-3">

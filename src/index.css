@@ -282,7 +282,7 @@ h2 {
 /* -----------------------------------------------------------Vehicle Animation X Cross Browser------------------------------------------ */
 .vehicle {
   z-index: 100;
-  position: relative;
+  position: absolute;
   display: block;
   -webkit-animation-name: vehicle;
   -webkit-animation-duration: 11s;
