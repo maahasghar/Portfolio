@@ -237,16 +237,15 @@ h2 {
   width: 2rem;
   height: 2rem;
 
-  /* -webkit-animation-name: wheel, vehicle;
+  -webkit-animation-name: wheel, vehicle;
   -webkit-animation-duration: 1s, 11s;
   -webkit-animation-iteration-count: infinite, infinite;
   -webkit-animation-timing-function: linear, linear;
 
-
   animation-name: wheel, vehicle;
   animation-duration: 1s, 11s;
   animation-iteration-count: infinite, infinite;
-  animation-timing-function: linear, linear; */
+  animation-timing-function: linear, linear;
 
   /* -webkit-animation: wheel 1s linear infinite, vehicle 11s linear infinite; */
   /* -moz-animation: wheel 1s linear infinite, vehicle 11s linear infinite;
@@ -258,31 +257,11 @@ h2 {
 .back-wheel {
   left: -3.9rem;
   position: absolute;
-
-  -webkit-animation-name: wheel, vehicle;
-  -webkit-animation-duration: 1s, 11s;
-  -webkit-animation-iteration-count: infinite, infinite;
-  -webkit-animation-timing-function: linear, linear;
-
-  animation-name: wheel, vehicle;
-  animation-duration: 1s, 11s;
-  animation-iteration-count: infinite, infinite;
-  animation-timing-function: linear, linear;
 }
 
 .front-wheel {
   left: 2.2rem;
   position: absolute;
-
-  -webkit-animation-name: wheel2, vehicle;
-  -webkit-animation-duration: 1s, 11s;
-  -webkit-animation-iteration-count: infinite, infinite;
-  -webkit-animation-timing-function: linear, linear;
-
-  animation-name: wheel2, vehicle;
-  animation-duration: 1s, 11s;
-  animation-iteration-count: infinite, infinite;
-  animation-timing-function: linear, linear;
 }
 
 @-webkit-keyframes wheel {
@@ -295,21 +274,6 @@ h2 {
 }
 
 @keyframes wheel {
-  100% {
-    transform: rotate(360deg);
-  }
-}
-/* -----------------------------------------Wheel 2--------------------------------------------------- */
-@-webkit-keyframes wheel2 {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes wheel2 {
   100% {
     transform: rotate(360deg);
   }

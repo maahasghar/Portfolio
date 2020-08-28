@@ -35,14 +35,16 @@ const Home = () => {
       </div>
       <div className="city"></div>
 
-      <span className="car">
-        <img src={car} alt="car body" />
-      </span>
+      <div>
+        <span className="car">
+          <img src={car} alt="car body" />
+        </span>
 
-      <span className="wheel">
-        <img src={wheel} className="back-wheel" alt="back wheel" />
-        <img src={wheel} className="front-wheel" alt="front wheel" />
-      </span>
+        <span className="wheel">
+          <img src={wheel} className="back-wheel" alt="back wheel" />
+          <img src={wheel} className="front-wheel" alt="front wheel" />
+        </span>
+      </div>
     </section>
   );
 };
