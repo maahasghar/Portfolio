@@ -22,8 +22,8 @@ const Navbar = () => {
               <div
                 className="collapse navbar-collapse"
                 id="navbarSupportedContent"
-                data-toggle="collapse"
-                data-target=".navbar-collapse"
+<!--                 data-toggle="collapse"
+                data-target=".navbar-collapse" -->
               >
                 <ul className="navbar-nav ml-auto pr-4">
                   <li>
