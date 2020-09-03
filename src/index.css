@@ -105,7 +105,6 @@ h2 {
   width: 100%;
   height: 100vh;
   overflow-y: hidden;
-  overflow-x: hidden;
   background-color: #feebca;
 }
 
@@ -156,7 +155,7 @@ h2 {
   width: 100%;
   background-image: url(./Images/withoutbackground.png);
   position: absolute;
-  bottom: -0.01rem;
+  bottom: 0rem;
   left: 0rem;
   right: 0rem;
   display: block;
@@ -181,7 +180,7 @@ h2 {
 .car {
   width: 12rem;
   left: 0%;
-  bottom: 1rem;
+  bottom: 2rem;
   transform: translateX(-50%);
   position: absolute;
   z-index: 2;
@@ -279,7 +278,7 @@ h2 {
 /* -----------------------------------------------------------Wheel Animation X Cross Browser------------------------------------------ */
 .wheel {
   left: 0%;
-  bottom: 2.5rem;
+  bottom: 1.5rem;
   position: absolute;
   z-index: 2;
 }
