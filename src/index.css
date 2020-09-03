@@ -512,6 +512,10 @@ h2 {
   transform: translateY(-1rem);
 }
 
+.box-text {
+  height: 15rem;
+}
+
 #card h3 {
   font-family: "Noto Serif", sans-serif;
   color: #941e40;
@@ -523,7 +527,7 @@ h2 {
 #card p {
   font-family: "Noto Sans", sans-serif;
   color: #fff5d7;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-align: center;
   display: block;
 }
