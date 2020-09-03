@@ -180,7 +180,7 @@ h2 {
 .car {
   width: 12rem;
   left: 0%;
-  bottom: 2rem;
+  bottom: 1rem;
   transform: translateX(-50%);
   position: absolute;
   z-index: 2;
@@ -278,7 +278,7 @@ h2 {
 /* -----------------------------------------------------------Wheel Animation X Cross Browser------------------------------------------ */
 .wheel {
   left: 0%;
-  bottom: 1.5rem;
+  bottom: 5.5rem;
   position: absolute;
   z-index: 2;
 }
