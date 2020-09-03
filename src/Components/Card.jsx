@@ -2,11 +2,9 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div id="card" className="col-lg-4 col-10 mx-auto box">
+    <div id="card" className="col-lg-2 col-10 mx-auto box gx-4">
       <h3>{props.title}</h3>
       <p className=" box-text">{props.text}</p>
-      <br />
-      <br />
       <a
         href={props.url}
         target="_blank"
