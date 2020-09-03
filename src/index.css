@@ -155,7 +155,7 @@ h2 {
   width: 100%;
   background-image: url(./Images/withoutbackground.png);
   position: absolute;
-  bottom: -0.5rem;
+  bottom: -0.01rem;
   left: 0rem;
   right: 0rem;
   display: block;
