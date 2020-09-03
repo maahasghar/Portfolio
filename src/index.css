@@ -502,9 +502,10 @@ h2 {
   left: 0rem;
   width: 21rem;
   height: auto;
-  border-radius: 2.5rem;
+  border-radius: 1.5rem;
   transition: transform 500ms ease-in-out;
   box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #a19067;
+  margin: 1rem;
 }
 
 .box:hover {
