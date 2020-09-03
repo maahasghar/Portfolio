@@ -161,6 +161,7 @@ h2 {
   display: block;
   z-index: 1;
   overflow-x: hidden;
+  overflow-y: hidden;
   background-repeat: repeat-x;
   animation: city 60s linear infinite;
 }
