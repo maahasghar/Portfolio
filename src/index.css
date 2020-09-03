@@ -278,7 +278,7 @@ h2 {
 /* -----------------------------------------------------------Wheel Animation X Cross Browser------------------------------------------ */
 .wheel {
   left: 0%;
-  bottom: 5.5rem;
+  bottom: 3.5rem;
   position: absolute;
   z-index: 2;
 }
