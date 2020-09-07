@@ -11,9 +11,7 @@ const About = () => {
                 <h2>About Me</h2>
                 <p>
                   Hi! My name is Maah. I am a fourth-year Computer Science
-                  student at Western University. Currently, I am interning
-                  as a Quality-Assurance Engineer at Royal Bank of Canada (RBC),
-                  Mississauga, Ontario.
+                  student at Western University.
                   <br />
                   <br />
                   Recently, I have discovered my passion for illustration. Thus, I
