@@ -14,7 +14,7 @@ const About = () => {
                   student at Western University.
                   <br />
                   <br />
-                  Recently, I have discovered my passion for illustration.  So, I decided to teach myself digital illustration from scratch, and bring creative ideas to life. <br />
+                  Recently, I have discovered my passion for illustration.  So, I decided to teach myself digital illustration from scratch and bring creative ideas to life. <br />
                   <br />
                   When I am not coding, or pushing pixels, you'll find me
                   hanging out with friends, working out, or binge-watching on
