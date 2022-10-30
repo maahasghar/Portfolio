@@ -8,6 +8,7 @@ const About = () => {
           <div className="col-10 mx-auto">
             <div className="row">
               <div className="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column about-text">
+                <br/>
                 <h2>About Me</h2>
                 <p>
                   Hi! My name is Maah. I am currently a Senior Software Developer at RBC.
