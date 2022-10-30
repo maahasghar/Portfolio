@@ -19,7 +19,7 @@ const About = () => {
                   <br />
                   <br />
                   <h4>Tools and Technologies</h4>
-                  React, Node.js, JavaScript, HTML, CSS, Java, Python, PHP, C/C++, Unix, MySQL, SQL, Git, Github, Jira, AWS, Docker, Unit Testing, E2E Testing.
+                  React, Node.js, JavaScript, HTML, CSS, Java, Python, C/Unix Scripting, MySQL, SQL, Git, Github, Jira, AWS, Docker, Unit Testing, E2E Testing.
                 </p>
               </div>
               <div className=" col-lg-6 order-1 order-lg-2 about-img  justify-content-right ">
