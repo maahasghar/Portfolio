@@ -16,6 +16,7 @@ const About = () => {
                   <br/>
                   During this time, I was part of a fast-paced, start-up environment-like projects where I worked on both the frontend React application, as well backend architecture that used services and tools like IBM InfoSphere Information Server, SQL, Unix Scripting and many more. I worked on projects ranging from helping deign and implement application that analyzes and produces statistically referenced subsets of production data to helping implement monitoring dashboard to effieciently and proactively support the internal internal services of the bank.   
                   <br />
+                  <br />
                   <h4>Tools and Technologies</h4>
                   React, Node.js, JavaScript, HTML, CSS, Java, Python, PHP, C/C++, Unix, MySQL, SQL, Git, Github, Jira, AWS, Docker, Unit Testing, E2E Testing.
                 </p>
