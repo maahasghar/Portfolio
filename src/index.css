@@ -465,6 +465,13 @@ h2 {
   text-align: center;
   font-size: 1rem;
 }
+
+h4 {
+  font-family: "Noto Serif", sans-serif;
+  text-align: center;
+  margin: 0 0 1rem 0;
+  color: #941e40;
+}
 /* .about-img img {
   /* width: 100%; *
   height: auto;
