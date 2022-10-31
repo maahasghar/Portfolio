@@ -11,7 +11,7 @@ const About = () => {
                 <br/>
                 <h2>About Me</h2>
                 <p>
-                  Hi! My name is Maah. I am currently a Senior Software Developer at RBC.
+                  Hi! I'm Maah. I am currently a Senior Software Developer at RBC.
                   <br />
                   I am a dedicated, reliable and proactive Software Engineer with ~1.5 years of experience working on network effect, high scale business as well as enterprise scale application. Large appetite to learn and create delightful user enperiences and robust/efficient applications<br />
                   <br/>
